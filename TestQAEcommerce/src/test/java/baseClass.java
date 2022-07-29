@@ -15,6 +15,7 @@ protected WebDriver driver;
 	  
 	  @BeforeMethod
 	  public void beforeMethod() {
+		//New
 		  driver = new ChromeDriver();
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  driver.get("https://crwn-clothing-live-ks.herokuapp.com/shop");
